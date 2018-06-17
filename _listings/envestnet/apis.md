@@ -6,7 +6,7 @@ description: Build and transform financial apps and services with access to fina
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
 x-kinRank: "8"
 x-alexaRank: "84912"
-tags: acquisitions
+tags: Acquisitions
 created: "2018-06-17"
 modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/apis.md
@@ -43,7 +43,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
   baseURL: https://api.crunchbase.com//v/3
-  tags: acquisitions
+  tags: Acquisitions
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/openapi.md

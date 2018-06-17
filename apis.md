@@ -1,5 +1,5 @@
 ---
-name: Streadata.io API Gallery - acquisitions
+name: Streadata.io API Gallery - Acquisitions
 description: This is a repository of acquisitions APIs, self-contained as a Github
   repository, with HTML and YAML representations of the APIs and their surrounding
   operations.
@@ -9,7 +9,7 @@ modified: "2018-06-17"
 url: http://acquisitions.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-tags: acquisitions
+tags: Acquisitions
 include:
 - name: Envestnet
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/apis.yaml
