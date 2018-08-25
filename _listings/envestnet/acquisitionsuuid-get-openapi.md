@@ -40,6 +40,33 @@ paths:
       tags:
       - Acquisitions
       - Uuid
+  /acquisitions/{uuid}/{relationship_name}:
+    get:
+      summary: Get Acquisitions Relationships
+      description: Get Acquisitions Relationships
+      operationId: acquisitionsRelationships
+      x-api-path-slug: acquisitionsuuidrelationship-name-get
+      parameters:
+      - in: query
+        name: page
+        description: The number of the page to retrieve
+      - in: path
+        name: relationship_name
+        description: The name of the relationship connecting Items
+      - in: query
+        name: sort_order
+        description: The sort order
+      - in: path
+        name: uuid
+        description: 32-character uuid of the Acquisition
+      responses:
+        200:
+          description: OK
+      tags:
+      - Acquisitions
+      - Uuid
+      - Relationship
+      - Name
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
