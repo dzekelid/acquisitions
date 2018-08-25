@@ -10,45 +10,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Acquisitions
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/vmware/apis.md
 specificationVersion: "0.14"
-apis:
-- name: VMWare vRealize Operations
-  x-api-slug: vmware-vrealize-operations
-  description: todo-add-description
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
-  humanURL: http://vmware.com
-  baseURL: https://example.com//suite-api/api
-  tags: Cloud, Compute, Service API, Relative Data, Networks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/vmware/apiauthtokenacquire-post-openapi.md
-- name: VMWare vRealize Operations
-  x-api-slug: vmware-vrealize-operations
-  description: todo-add-description
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
-  humanURL: http://vmware.com
-  baseURL: https://example.com//suite-api/api
-  tags: Cloud, Compute, Service API, Relative Data, Networks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/vmware/apiauthtokenacquire-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/vmware/apiauthtokenacquire-post-openapi.md
-- name: VMWare vRealize Operations
-  x-api-slug: vmware-vrealize-operations
-  description: vRealize Suite is an enterprise-ready, cloud management suite that
-    delivers the industry&rsquo;s most complete solution for managing a heterogeneous,
-    hybrid cloud.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png
-  humanURL: http://vmware.com
-  baseURL: https://example.com//suite-api/api
-  tags: Acquisitions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/vmware/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://blogs.vmware.com/

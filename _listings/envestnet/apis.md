@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodle
 x-kinRank: "8"
 x-alexaRank: "84912"
 tags: Acquisitions
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Crunch Base
-  x-api-slug: crunch-base
-  description: the-crunchbase-api-is-a-relatively-straightforward-rest-service-that-allows-developers-to-access-data-in-the-business-graph-
+- name: Crunch Base - Acquistions
+  x-api-slug: acquisitionsuuid-get
+  description: Pull from Acquisition
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
   baseURL: https://api.crunchbase.com//v/3
@@ -25,26 +25,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-openapi.md
-- name: Crunch Base
-  x-api-slug: crunch-base
-  description: the-crunchbase-api-is-a-relatively-straightforward-rest-service-that-allows-developers-to-access-data-in-the-business-graph-
+- name: Crunch Base - Get Acquisitions Relationships
+  x-api-slug: acquisitionsuuidrelationship-name-get
+  description: Get Acquisitions Relationships
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
   baseURL: https://api.crunchbase.com//v/3
   tags: Aggregation, Finance, Finance, Financial Data, SaaS, Technology, Enterprise,
     Profiles, General Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuidrelationship-name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuidrelationship-name-get-openapi.md
-- name: Crunch Base
-  x-api-slug: crunch-base
-  description: the-crunchbase-api-is-a-relatively-straightforward-rest-service-that-allows-developers-to-access-data-in-the-business-graph-
+- name: Crunch Base - Acquistions
+  x-api-slug: acquisitionsuuid-get
+  description: Pull from Acquisition
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
   baseURL: https://api.crunchbase.com//v/3
@@ -55,15 +51,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuidrelationship-name-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuidrelationship-name-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-openapi.md
-- name: Crunch Base
-  x-api-slug: crunch-base
-  description: the-crunchbase-api-is-a-relatively-straightforward-rest-service-that-allows-developers-to-access-data-in-the-business-graph-
+- name: Crunch Base - Get Acquisitions Relationships
+  x-api-slug: acquisitionsuuidrelationship-name-get
+  description: Get Acquisitions Relationships
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
   humanURL: http://www.yodlee.com/
   baseURL: https://api.crunchbase.com//v/3
@@ -71,28 +61,9 @@ apis:
     Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuidrelationship-name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuidrelationship-name-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/acquisitionsuuidrelationship-name-get-openapi.md
-- name: Crunch Base
-  x-api-slug: crunch-base
-  description: Build and transform financial apps and services with access to financial
-    data through our APIs and digital solutions for banks, developers, and innovators.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
-  humanURL: http://www.yodlee.com/
-  baseURL: https://api.crunchbase.com//v/3
-  tags: Acquisitions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://entertainment.express.api.gallery.streamdata.io
