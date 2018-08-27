@@ -1,96 +1,71 @@
 {
-	"name": "AWS EC2",
-	"x-slug": "aws-ec2",
-	"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Compute_AmazonEC2.png",
-	"x-kinRank": "10",
-	"x-alexaRank": "0",
-	"tags": "Acquisitions",
-	"created": "2018-08-24",
-	"modified": "2018-08-24",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/acquisitions\/master\/_listings\/aws-ec2\/apis.md",
+	"name": "Streadata.io API Gallery - Acquisitions",
+	"description": "This is a repository of acquisitions APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/acquisitions.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://acquisitions.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "AWS EC2 API",
-			"x-api-slug": "aws-ec2-api",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Compute_AmazonEC2.png",
-			"humanURL": "https:\/\/aws.amazon.com\/ec2\/",
-			"baseURL": ":\/\/\/",
-			"tags": "Amazon Web Services, Compute, Stack Network, Stack, API Service Provider, API Service Provider, API Provider, Profiles, Relative Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/acquisitions\/master\/_listings\/aws-ec2\/actionallocateaddress-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/acquisitions\/master\/_listings\/aws-ec2\/actionallocateaddress-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "AWS EC2 API",
-			"x-api-slug": "aws-ec2-api",
-			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Compute_AmazonEC2.png",
-			"humanURL": "https:\/\/aws.amazon.com\/ec2\/",
-			"baseURL": ":\/\/\/",
+			"name": "Envestnet",
+			"x-api-slug": "envestnet",
+			"description": "Build and transform financial apps and services with access to financial data through our APIs and digital solutions for banks, developers, and innovators.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg",
+			"humanURL": "http://www.yodlee.com/",
+			"baseURL": "https://api.crunchbase.com//v/3",
 			"tags": "Acquisitions",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/acquisitions\/master\/_listings\/aws-ec2\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "Acquisitions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/vmware/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Acquisitions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/aws-ec2/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/aws.dynamodb.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/aws.ec2.stack.network"
-		},
-		{
-			"type": "x-code",
-			"url": "http:\/\/aws.amazon.com\/code\/Amazon-EC2\/"
-		},
-		{
-			"type": "x-documentation",
-			"url": "http:\/\/docs.aws.amazon.com\/AWSEC2\/latest\/APIReference\/Welcome.html"
-		},
-		{
-			"type": "x-faq",
-			"url": "https:\/\/aws.amazon.com\/ec2\/faqs\/"
-		},
-		{
-			"type": "x-getting-started",
-			"url": "https:\/\/aws.amazon.com\/ec2\/getting-started\/"
-		},
-		{
-			"type": "x-pricing",
-			"url": "https:\/\/aws.amazon.com\/ec2\/pricing\/"
-		},
-		{
-			"type": "x-sla",
-			"url": "https:\/\/aws.amazon.com\/ec2\/sla\/"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/aws.amazon.com\/ec2\/"
-		}
-	],
+	"tags": "Acquisitions",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "Envestnet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/envestnet/apis.yaml"
+		},
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/vmware/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/acquisitions/master/_listings/aws-ec2/apis.yaml"
 		}
 	]
 }
